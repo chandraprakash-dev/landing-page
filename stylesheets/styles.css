@@ -1,10 +1,57 @@
 body {
+    border: 1px solid black;
+    font-family: "Roboto Thin", sans-serif;
 }
 
 .container {
+    border: 1px solid black;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
 }
 
 #header {
+    background-color: #1f2937;
+}
+
+#top-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links a, .secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-text {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
 }
 
 .action {
