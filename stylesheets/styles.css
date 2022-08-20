@@ -25,7 +25,7 @@ a {
 }
 
 #header {
-    background-color: #1f2937;
+    background-color: #1F2937;
     padding: 5px 15%;
 }
 
@@ -114,7 +114,20 @@ button {
 }
 
 .quote {
+    background-color: #E5E7EB;
+    padding: 25px 20%;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-credits {
+    text-align: right;
+    font-weight: bold;
 }
 
 #footer {
